@@ -1,1 +1,16 @@
 /* typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">');
+
+$font: "Nunito", serif;
+
+$body-font-size: 120%;
+$body-font-weight: 350;
+$body-italic-weight: 100;
+
+$display-font: $font;
+$display-weight: 900;
+$display-spacing: 0.15em;
+$display-title-size: 4rem;
+
+

@@ -15,7 +15,7 @@ layout: 'base.njk'
       </div>
     </div>
     <div>
-      <img src="/assets/portfolio/welcome-809-510x510.jpg" alt="" class="hero__image">
+      <img src="/assets/portfolio/homephoto.jpg" alt="" class="hero__image">
     </div>
   </div>
 </section>
@@ -23,8 +23,8 @@ layout: 'base.njk'
 <section id="featured-articles" class="featured-articles">
   <div class="container flow">
     <h2 class="section-title text-center ">Featured work</h2>
-    <p class="text-center">Here is a sample of work which I feel gives you a good idea of what this site is all
-      about.</p>
+    <p class="text-center">Here is my poem site which I've been working on recently!
+      </p>
     <ul role="list" class="articles__list flow">
       {%- for post in collections.featured | reverse -%}
       {% include 'article-snippet.njk' %}

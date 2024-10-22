@@ -180,7 +180,10 @@ header,
 .main-article {
   margin-bottom: 3rem;
 }
+.main-article__figure img {
 
+  margin: 0 auto; 
+} 
 .main-article__figure figcaption {
   margin: 1rem 0;
   font-size: var(--fs-300);
@@ -206,7 +209,7 @@ header,
   grid-area: image;
   width: 100%;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .snippet__title {
