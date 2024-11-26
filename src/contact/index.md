@@ -7,7 +7,7 @@ title: Contact
   form {
     background-color: #f9f9f9;
     border-radius: 8px;
-    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 100px rgba(0, 0, 0, 0.1);
     padding: 2em;
     max-width: 500px;
     margin: 0 auto;
