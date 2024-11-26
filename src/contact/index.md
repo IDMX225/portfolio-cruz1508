@@ -67,7 +67,7 @@ title: Contact
 
 <h2>Contact Us</h2>
 
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" netlify>
   <p>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
